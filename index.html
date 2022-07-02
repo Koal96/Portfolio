@@ -1,0 +1,327 @@
+<!DOCTYPE HTML >
+<html>
+
+<style>
+{
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background-color:#8300E3 ;
+
+}
+
+img {
+    transition:transform 0.25s ease;
+}
+
+img:hover {
+    -webkit-transform:scale(1.5); /* or some other value */
+    transform:scale(1.5);
+    transform
+}
+
+image {
+    transition:transform 0.25s ease;
+}
+
+image:hover {
+    -webkit-transform:scale(1.5); /* or some other value */
+    transform:scale(1.5);
+    transform
+}
+
+
+/* Container needed to position the overlay. Adjust the width as needed */
+.container {
+  position: relative;
+
+}
+
+/* Make the image to responsive */
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+/* The overlay effect - lays on top of the container and over the image */
+.overlay {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1;
+  width: 100%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 15px;
+  padding: 0px;
+  text-align: center;
+  font-family:Roboto Light;
+}
+
+/* When you mouse over the container, fade in the overlay title */
+.container:hover .overlay {
+  opacity: 1;
+}
+.header {
+font-family: Roboto;
+font-size: 30px;
+text-align: center;
+padding: 150px;
+letter-spacing: 5px;
+color: #FFFFFF ;
+}
+
+.row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  padding: 0 150px;
+}
+
+
+.column {
+  -ms-flex: 25%;
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+.column container {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+@media screen and (max-width: 800px) {
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+
+@media screen and (max-width: 600px) {
+ .column {
+-ms-flex: 100%;
+flex: 100%;
+max-width: 100%;
+}
+}
+
+
+  ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 20px;
+  overflow: hidden;
+  background-color:#8300E3;
+}
+
+li{
+  float: left;
+
+}
+
+
+li a {
+  font-family: Roboto;
+  font-size: 20px;
+  display: inline-block;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  border: 20px;
+  padding: 20px;
+  letter-spacing: 2px;
+  font-family: Roboto;
+
+}
+
+
+.inativo{
+           cursor: not-allowed;
+}
+
+li a:hover {
+              background-color:#000000;
+
+}
+
+
+
+.Contact ol  {
+   padding: 40px;
+  font-family: Roboto Light;
+  font-size:20px;
+  color: #FFFFFF ;
+  text-align: left;
+  letter-spacing: 2px;
+  padding: 20px;
+  margin-left: 10px;
+  margin-top:  10px;
+}
+
+
+
+
+
+
+
+
+
+
+</style>
+
+<head>
+
+
+<meta charset="utf-8">
+<meta name="viewport" content="Width-device-width, initial-scale=1">
+
+<link rel="stylesheet" type="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap" rel="stylesheet">
+
+
+</head>
+
+<body>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<ul>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+
+       <li><a href="index.html"> Home</a> </li>
+       <li><a href="parte2.html"> Passion Projects</a> </li>
+       <li><a href="#Contact"> Contact </a> </li>
+
+
+</ul>
+
+<div class="header">
+  <h1>TIAGO  LEITE</h1>
+
+</div>
+
+
+<div class="row">
+  <div class="column">
+
+      <div class="container">
+        <img src="IMG 01.png" alt="Avatar" class="image"  style="width:100%">
+        <div class="overlay">Doo Bop Poster</div>
+      </div>
+
+      <div class="container">
+        <img src="IMG 03.png" alt="Avatar" class="image"  style="width:100%">
+        <div class="overlay">Jazz Sessions Flyer</div>
+      </div>
+
+      <div class="container">
+        <img src="IMG 05.png" alt="Avatar" class="image"  style="width:100%">
+        <div class="overlay">Feira do Livro Poster</div>
+      </div>
+
+     </div>
+
+  <div class="column">
+    <div class="container">
+        <img src="IMG 24.png" alt="Avatar" class="image"  style="width:100%">
+        <div class="overlay">Primavera Sound Poster</div>
+      </div>
+
+      <div class="container">
+        <img src="IMG 30.png" alt="Avatar" class="image"  style="width:100%">
+        <div class="overlay">Metallica Album cover</div>
+      </div>
+
+      <div class="container">
+        <img src="IMG 06.jpg" alt="Avatar" class="image"  style="width:100%">
+        <div class="overlay">"RAMBO" Poster, for anitamtion project</div>
+      </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+        <img src="IMG 11.png" alt="Avatar" class="image"  style="width:100%">
+        <div class="overlay">Spotify Playlist cover</div>
+      </div>
+
+      <div class="container">
+        <img src="IMG 07.gif" alt="Avatar" class="image"  style="width:100%">
+        <div class="overlay">Rotoscope Animation</div>
+      </div>
+
+      <div class="container">
+        <img src="IMG 19.png" alt="Avatar" class="image"  style="width:100%">
+        <div class="overlay">Serigraphy Work 01</div>
+      </div>
+      <div class="container">
+        <img src="IMG 50.gif" alt="Avatar" class="image"  style="width:100%">
+        <div class="overlay">T-shirt Animation</div>
+      </div>
+  </div>
+
+  <div class="column">
+   <div class="container">
+        <img src="IMG 10.png" alt="Avatar" class="image"  style="width:100%">
+        <div class="overlay">Graphic Expression Work</div>
+      </div>
+
+      <div class="container">
+        <img src="IMG 25.png" alt="Avatar" class="image"  style="width:100%">
+        <div class="overlay">Typography Poster</div>
+      </div>
+
+      <div class="container">
+        <img src="IMG 28.jpg" alt="Avatar" class="image"  style="width:100%">
+        <div class="overlay">Graphic Expression Work</div>
+      </div>
+  </div>
+</div>
+
+
+
+
+<div class="Contact" id="Contact">
+<ol>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+<ol><b>CONTACT</b>
+<ol><b>tiagoleitedesign@gmail.com</b></ol>
+
+
+</ol>
+</div>
+
+
+
+
+</body>
+</html>
